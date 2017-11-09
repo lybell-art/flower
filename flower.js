@@ -2,7 +2,7 @@ var fg, bg;
 var frame=0;
 var fetal=5;
 function setup() { 
-  createCanvas(600, 600);
+  createCanvas(windowWidth,windowHeight);
 	fg=createGraphics(width,height);
 	bg=createGraphics(width,height);
 	background(0);
